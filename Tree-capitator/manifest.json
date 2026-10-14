@@ -1,0 +1,25 @@
+{
+    "format_version" : 2 ,
+    "header" : {
+        "description" : "Treecapitator Mod Penebang pohon" ,
+        "name" : "Treecapitator" ,
+        "uuid" : "7f83e2a1-3b4c-4d5e-6f7a-8b9c0d1e2f3a" ,
+        "version" : [1 , 0 , 0] ,
+        "min_engine_version" : [1 , 21 , 50]
+    } ,
+    "modules" : [ 
+        {
+            "type" : "script" ,
+            "language" : "javascript" ,
+            "uuid" : "1a2b3c4d-5e6f-7a8b-9c0d-1e2f3a4b5c6d" ,
+            "version" : [1 , 0 , 0] ,
+            "entry" : "scripts/main.js"
+        } 
+    ] ,
+    "dependencies" : [
+        {
+            "module_name" : "@minecraft/server" ,
+            "version" : "1.10.0"
+        }
+    ]
+}
