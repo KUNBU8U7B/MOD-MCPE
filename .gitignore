@@ -1,0 +1,27 @@
+# 1. Modul Node.js (Wajib di-ignore agar repo tidak berat)
+node_modules/
+
+# 2. File Log & Cache Node/NPM
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# 3. Pengaturan Editor / IDE Lokal
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# 4. File Hasil Build / Packing (.mcpack atau .zip buatan sendiri)
+dist/
+build/
+
+# 5. File Sampah Sistem Operasi (Windows & Mac)
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini

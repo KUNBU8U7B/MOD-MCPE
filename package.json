@@ -1,15 +1,16 @@
 {
-  "name": "tree-capitator",
-  "version": "1.0.0",
+  "dependencies": {
+    "@minecraft/server": "^2.10.0"
+  },
+  "name": "m-mcpe-me",
   "description": "",
+  "version": "1.0.0",
   "main": "index.js",
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "@minecraft/server": "^2.10.0"
-  }
+  "license": "ISC"
 }
