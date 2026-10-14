@@ -1,4 +1,4 @@
-import { worlds , system } from "@minecraft/server" ;
+import { world , system } from "@minecraft/server" ;
 
 const kapak = [
     "minecraft:wooden_axe",
